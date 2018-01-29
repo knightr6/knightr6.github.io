@@ -1,0 +1,65 @@
+<!doctype html>
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/mobile.css">
+	<script type="text/javascript" src="javascript/mobile.js"></script>
+	<title>Mobile Web App</title>
+</head>
+
+<div id="wrapper">
+<body>
+	
+<div id="header"><h1>Mobile App Project</h1></div>
+	
+<h4>DRACO SECURITAS</h4>
+
+<div id="boss_1">
+
+<p>If you are checking on local dragon sightings you have come to the right place. 
+ 	This time of year and especially with the hot weather, local dragon activity
+    should be anticipated.</p>
+
+<div id="boss_3">
+
+<button id="btn_1"	onClick=myFunction()>Press for UpToDate<br>Dragon
+    Activity<br>@ Your Present Location</button>	
+
+</div>
+
+<p>Use the button above for all very up to date and current dragon activity or 
+    sightings in your area. Use this GPS enabled Web App as a companion on your travels.</p>
+
+<h4>Information for other Store Fronts<br>
+	and Online Activities - Please Use the <br>
+	Pulldown Menu Below</h4>
+
+<form name="form2">
+<select name="jumpmenu" onChange="jumpto(document.form2.jumpmenu.options
+							[document.form2.jumpmenu.options.selectedIndex].value)">
+	<option>Jump to...</option>
+	<option value=mobile_pages/mobile_one.html>Old T-Shirts Disposal Depot</option>
+	<option value=mobile_pages/mobile_two.html>Bottled Sunshine Store</option>
+	<option value=mobile_pages/mobile_three.html>Build a Haiku Web App</option>
+
+</select>
+</form>
+<br>
+			<h4b>Our Page Links</h4b>
+	<ul>
+		<li><a href="mobile_pages/mobile_one.html">Page One</a></li>
+		<li><a href="mobile_pages/mobile_two.html">Page Two</a></li>
+		<li><a href="mobile_pages/mobile_three.html">Page Three</a></li>
+		<li><a href="../index.html">Back to Index Home</a></li>		
+	</ul>
+	
+</div>  <!--ends div boss_1-->
+
+<div id="footer">
+	<p>Mobile App Development</p>
+</div>
+</body>
+</div>  <!--ends div wrapper-->
+ 
+</html>
