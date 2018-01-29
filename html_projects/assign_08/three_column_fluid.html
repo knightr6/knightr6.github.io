@@ -1,0 +1,76 @@
+<!doctype html>
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../../css/assign_08.css">
+	<title>three column left</title>
+</head>
+<body>
+	<div id="wrapper">
+	<div id="header"><h1>Web Site Development & Design News</h1></div>
+	<div id="links_3col_left">
+		<h4>Two Column Layout</h4>
+	<ul>
+		<li><a href="../assign_08.html"><em>HOME - </em>Two Column: fluid layout</a></li>
+		<li><a href="two_col_no_margin.html">Two Column: without page margin</a></li>
+		<li><a href="two_col_no_float.html">Two Column: without column float</a></li>		
+	</ul>
+		<h3>Three Column Layout</h3>
+	<ul>
+		<li><a href="three_column_fluid.html">Three Column: floated left</a></li>
+		<li><a href="three_column_fluid_02.html">Three Column: floated right</a></li>
+	</ul>
+		<h3>OUTA Here Link</h3>
+	<ul>
+		<li><a href="../../index.html">HOME</a></li>
+	</ul>
+
+</div>
+
+	<div id="main_3col_left">
+
+<p>Page is a fluid layout.  Columns are entered in order as below: - red - blue - yellow - and all floated left.</p>
+
+<pre>div#links_3col_left {
+float: left;
+width: 20%;
+min-height: 300px;
+margin: 2% 0 0 2%;
+padding: 1.6%;
+background-color: #FF3030;
+/*red*/
+}
+div#main_3col_left  {
+float: left;
+width: 45%;
+min-height: 450px;
+margin: 0 2% 2%;
+padding: 1.6%;
+background-color: #0099FF; 
+}
+/*blue*/
+div#news {
+float:left;
+width: 20%;
+min-height: 350px;
+margin: 0 2% 0 0;
+padding: 1.6%;
+background-color: #FFCC11; 
+/*yellow*/
+}</pre>
+</div>  <!-- ends "main_3a"-->
+<div id="news">
+
+<h4>Web Site Development & Design News:</h4> 
+<em>all pages in this assignment are styled in a single .css file.</em>
+</div>
+
+<div id="footer">
+	<p>Web Site Dsgn & Development I - 41012</p>
+</div>
+
+</div> <!-- ends wrapper-->
+
+</body>
+</html>

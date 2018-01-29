@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  	<link rel="stylesheet" type="text/css" href="rps.css">
+  	<script type="text/javascript" src="rps.js"></script>
+  	<script type="function/javascript" src="kardas.js"></script>
+  	<title>Rock Paper Scissors</title>
+
+</head>
+
+<body>		
+	
+		<div id="zone">	
+			<h1 id="tops">Rock Paper Scissors Game</h1>	
+			<span id="Rule" ></span>
+			<br>
+			<br>
+			<br>
+ 			<span id="Score" ></span>
+			<br>			
+			<table align="center"> 
+			<tr> 
+			<td><div id="plyr">Player:  </div></td>				
+			<td><div id="myStatu"></div></td>
+			<td><div id="comp">Computer:  </div></td>
+			<td><div id="Statu"></div></td>
+			</tr> 
+			</table> 
+			<br>	
+			<br>		
+ 			<input type="button" value="ROCK" class="Choice" onfocus="r() & g();">
+ 			<input type="button" value="PAPER" class="Choice" onfocus="p() & g();">
+ 			<input type="button" value="SCISSORS" class="Choice" onfocus="s() & g();">
+ 			<br>	
+ 			<br>		
+ 		<!--	<div><input type="button" value="READY" class="Run" onfocus="g();">  -->	
+ 			<input type="button" value="RESET & PLAY" class="Reset" onfocus="reset();"><div>		
+			
+			<p id="button"><a href="../index.html">HOME RETURN</a></p>
+ 		</div>
+
+	<br>
+	<br>
+
+<script>
+   
+var uCoi = "U";
+ var cCoi = Math.random();
+  var w = "!! YOU WIN !!";
+   var l = "** YOU LOSE HUMAN **";  
+    var d = document;
+     var dmS = d.getElementById("myStatu");
+	  var dsC = d.getElementById("Score");
+	   var dsT = d.getElementById("Statu");
+	    var drU = d.getElementById("Rule");
+
+
+function reset() {window.location.href=window.location;}
+
+function r() {window.uCoi = "ROCK"; dmS.innerHTML =(uCoi);}
+function p() {window.uCoi = "PAPER"; dmS.innerHTML =(uCoi);}
+function s() {window.uCoi = "SCISSORS"; dmS.innerHTML =(uCoi);}
+
+
+if (cCoi < 0.32) {var cCoi = "ROCK";
+} else if (cCoi < 0.62) {var cCoi = "PAPER";
+} else {var cCoi = "SCISSORS";} 
+	var print = cCoi; 
+
+</script>
+
+
+ </body>
+ </html>

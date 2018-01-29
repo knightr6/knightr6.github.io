@@ -1,0 +1,177 @@
+
+html {
+	background-color: #DCDCDC;  /*unifies background color for all pages*/
+}
+
+div#wrapper_home {
+	margin: 5% 20% auto;	
+  outline: #CDCCD4 2px dashed;  /*test for layout*/
+}
+div#wrapper_team {
+  width: 1080px;   /*1060px*/  /*1120px*/
+  margin: 15px auto; 
+  outline: #CDCCD4 2px dashed;   /*test for layout*/
+}
+div#wrapper_photo {
+  text-align: center; 
+  margin: 5% 0;
+}
+/*styles for float left image and text containers*/
+div.container_20 {
+  width: 231px;
+  margin: 0 15px 15px 0;
+  /*background-color: #CC33FF;  */ /*matches template colors and px size*/
+  float: left;
+  /*outline: #CDCCD4 2px dashed;*/   /*test for layout*/
+}
+div.container_22 {
+  width: 287px;
+  margin: 0 15px 15px 0;
+  /*background-color: yellow;  */  /*matches template colors and px size*/
+  float: left;
+  /*outline: #CDCCD4 2px dashed;*/   /*test for layout*/
+}
+div.container_30 {
+  width: 345px;
+  margin: 0 15px 15px 0;
+  /*background-color: orange;  */  /*matches template colors and px size*/
+  float: left;
+  /*outline: #CDCCD4 2px dashed;*/   /*test for layout*/
+}
+div.container_40 {
+  width: 402px;
+  margin: 0 15px 15px 0;
+  /*background-color: #0099FF;  */  /*matches template colors and px size*/
+  float: left;
+  /*outline: #CDCCD4 2px dashed;*/   /*test for layout*/
+}
+div.container_50 {
+  width: 517px;
+  margin: 0 15px 15px 0;
+  /*background-color: #FF3333;  */  /*matches template colors and px size*/
+  float: left;
+  /*outline: #CDCCD4 2px dashed;*/   /*test for layout*/
+}
+div.container_60 {
+  width: 648px;
+  margin: 0 15px 15px 0;
+  /*background-color: #00FF00;  */  /*matches template colors and px size*/
+  float: left;
+  /*outline: #CDCCD4 2px dashed;*/   /*test for layout*/
+}
+div.container_individual_right {
+  width: 336px;
+  margin: 0 0 15px 0;
+  /*background-color: green;*/  /*matches template colors and px size*/
+  float: left;
+  /*outline: #CDCCD4 2px dashed;*/   /*test for layout*/
+}
+div.container_home_left {
+  width: 400px;
+  margin: 0 0 15px 30px;
+  /*background-color: #0099FF;*/    /*matches template colors and px size*/
+  float: left;
+  /*outline: #CDCCD4 2px dashed;*/   /*test for layout*/
+}
+div.container_home_right {
+  width: 400px;
+  margin: 0 30px 15px 220px;
+  /*background-color: #FF3333;*/    /*matches template colors and px size*/
+  float: left;
+  /*outline: #CDCCD4 2px dashed;*/  /*test for layout*/
+}
+  /* styles for navigation */
+#nav {
+   background-color: #d1d2d4;  
+   border-radius: 1em;
+   overflow: hidden;
+   margin: 0 15% 2em 15%;
+   width: 70%;
+   padding: 0 2em 1em 2em;
+   /*outline: #CDCCD4 2px dashed;*/
+}
+#nav ul {
+   list-style: none;
+   /*margin: 0 auto;*/
+   /*width: 38em; */ 
+} 
+#nav ul li {
+  font-weight: bold;
+  text-transform: capitalize;
+  float: left;
+}
+#nav ul li a {  
+  display: block; 
+  text-decoration: none; 
+  background-color: #99CCCC; 
+  padding: .5em;  
+  border: 2px solid #ffd801;
+  border-radius: .8em;  
+  margin: .50em; 
+}  
+#nav ul a:link {
+    color: blue;  
+  }
+#nav ul a:visited {
+    color: blue;
+  }
+#nav ul a:focus {
+  color: #FC6;
+  border-color: #fff; 
+}
+#nav ul a:hover {
+    color: #ffd801;
+  border-color: #fff; 
+  }
+#nav ul a:active {
+  color:#F00;
+}     
+
+/*img {
+  text-align: center;
+}  */
+img.down_01 {            /*step down to misalign even top row of images*/
+  margin: 1.5em 0 0;
+}  
+img.down_02 {            /*double step down*/  
+  margin: 3em 0 0;       
+} 
+img.up_01 {            /*step up of images*/
+  margin-top: -1.5em;
+}  
+img.up_02 {            /*double step up*/  
+  margin-top: -3em;       
+} 
+h1 {
+	text-align: center;
+	text-transform: capitalize;
+}
+h2 {
+	text-align: center;
+}
+h3 {
+	text-align: left;
+	font-weight: normal;
+}
+p.link {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+div#footer_left {
+  clear: left;
+  text-align: center;
+  margin: 2% 0; 
+  background-color: #AAAAAA;
+}
+div#footer_right {
+  clear: right;
+  text-align: center;
+  margin: 2% 0; 
+  background-color: #AAAAAA;
+}
+div#footer {
+  clear: right;
+  text-align: center;
+  margin: 2% 0; 
+  background-color: #AAAAAA;
+}

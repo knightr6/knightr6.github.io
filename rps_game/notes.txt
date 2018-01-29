@@ -1,0 +1,89 @@
+#background:#99FFFF;
+#background:#CCCCCC;
+html  background:#CCFFCC;
+
+#Score {
+	font-size: 2.5em;
+	font-weight: bold;
+	color: #FF4000;				
+}
+
+color: #FF6600;	
+
+<div>
+		<button id="btn_1"	onClick=myFunction()>Press for UpToDate<br>Dragon Activity<br>@ Your Present Location</button>
+    </div>
+
+
+top: 10px;
+
+position: absolute; 
+
+
+div#zone{
+	text-align: center; 
+	width: 500px; 
+	height: 2000px; 
+	padding: 15px; 
+	position: absolute; 	
+}
+
+	background: gray;
+
+#myStatu {
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #008080;
+	margin: 10px 10px 10px 10px;
+	width: 200px;
+	height: 25px;
+	background: #FFFFFF;
+	border-left: 3px solid #90EAFF;
+	padding: 5px 5px;
+}
+
+#Statu {
+	font-size: 1.2em;
+	font-weight: bold;
+	color: blue;
+	margin: 10px 10px 10px 10px;
+	width: 200px;
+	height: 25px;
+	background: #FFFFFF;
+	border-left: 3px solid #7ee2e3;
+	padding: 5px 5px;
+	align-items: center;		
+}
+
+
+function rp() {window.location.href=window.location;}	
+
+<p id="Score" style="background: rgb(216, 196, 62); border: 1px solid rgb(216, 196, 62);"></p>		
+
+outline: none;
+	border: 3px solid #90EAFF; 
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	transition: all 0.4s;
+	background: white;
+		
+		
+
+.Choice.active {
+	color: yellow;
+	background: #FFF;
+}
+
+color: #921A66; 
+
+
+.Choice:active {
+	color: yellow;
+	background: #FFF;
+	
+}
+
+FFCC66
+
+#883737
+dsC.style.background = "#d8c43e";

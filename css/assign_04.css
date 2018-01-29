@@ -1,0 +1,62 @@
+body {
+  font-family: "New Times Roman", serif;
+  font-size: 100%;
+  font-weight: bold;
+  margin: 5% 15%;
+  background: url(../images/bg.png) center;
+}
+h1 {
+  font-family: sans-serif;
+  border-bottom: 2px solid;
+  color: #006400;
+  text-align: center;
+}
+h2 {
+  font-family: sans-serif;
+  color: #006400;
+}
+div {  /*exert range of control of text and pic with div*/
+  /*color: red;      test*/  
+}
+img {
+  float: right;
+  /*border: 1px solid black;*/
+  margin: .5em 0 2em .5em;   /*buffer text block with left with image margins*/ 
+} 
+                                
+em {
+  font-size: large;
+  font-style: normal;
+  font-weight: bold;
+}
+ul {
+  list-style-type: square;
+  /*margin: 1em;
+  padding: 0;*/
+}
+a {                           
+  text-decoration: none;
+  border: 2px solid;
+}
+/*   use pseudo default for this page */
+/*
+a:link {
+  font-weight: bolder;
+	color: #006400;
+}
+a:visited {
+	color: #993399;
+}
+a:focus {
+	background-color: #fff;
+	color: #c700f2;
+}
+a:hover {
+	background-color: yellow;
+	color: #c700f2;
+}
+a:active {
+	background-color: #fff;
+	color: #f0f;
+}
+*/

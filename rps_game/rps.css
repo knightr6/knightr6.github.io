@@ -1,0 +1,184 @@
+
+
+html {	
+	margin: 1% 20% auto 20%;
+	
+	background: url(HongKong.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+
+}
+
+body {
+	text-align: center; 
+	font-size: 100%;
+	font-family: Arial;	
+}
+
+h1#tops {
+	font-size: 4.5em;
+	font-family: Arial Verdana;
+	font-style: italic; 
+	color: #CCFF00;	
+ 	text-shadow: 3px 2px 8px #008080;   
+	/* color: #008080; 
+	text-shadow: 3px 2px 8px #CCFF00, 2px 2px 8px #00FF33; */
+	text-align: center; 
+}
+
+div#plyr {
+	font-size: 2.5em;
+	font-weight: bold;
+	font-style: italic;
+	font-family: Arial Verdana;
+	color: #CCFF00;	
+	text-shadow: 3px 2px 8px #008080;
+	text-align: center;
+	width: 4em;
+	border-radius: 8px;
+	margin: 1em 0.5em 0em 0em;
+/*	box-shadow: .5px 5px 12px 5px #008080;  */
+}
+
+div#comp {
+	font-size: 2.5em;
+	font-weight: bold;
+	font-style: italic;
+	font-family: Arial Verdana;
+	color: #CCFF00;	
+	text-shadow: 3px 2px 8px #008080;
+	text-align: center;
+	width: 5em;
+	border-radius: 8px;
+	margin: 1em 0.5em 0em 1em;
+/*	box-shadow: .5px 5px 12px 5px #008080;  */
+}
+
+div#zone {
+	text-align: center; 	
+	align-content: center;	
+	align-items: center;
+	/* background:#CCFFCC; */
+	padding: 1em 0em 4em 0em;
+	border-radius: 60px;
+}
+
+.Choice {
+	font-family: 'Open Sans', sans-serif;	
+	font-weight: bold;
+	font-size: 1.2em;
+	color: #008080;
+	margin: 0px 10px 10px 10px;
+	background: #CCFF00;
+	padding: 5px;
+	width: 6.5em; 
+	height: 4.5em; 
+	border-radius: 50px; 
+	border: teal 6px solid;
+    box-shadow: .5px 5px 12px 5px teal; 	
+    cursor: pointer;
+}
+
+.Choice:hover {
+    color: #CCFF00;
+    background: #008080;
+    border: #FFF 2px solid;
+}
+
+.Choice:focus {
+	color: yellow;              /* #FF9900; */
+	background: #00FF33; 	
+}
+
+.Run {
+	border-radius: 8px;
+	height: 50px;
+	font-family: 'Open Sans', sans-serif;
+	width: 260px; 
+	padding: 5px; 
+	margin: 5px 10px 5px 0px; 
+	outline: none; 
+	border: none; 
+	background: #00CEFF; 
+	color: navy;
+	position: absolute; 
+}	
+
+.Reset {	
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: yellow;            /*  #CCFF00;  */
+	width: 8.5em; 
+	height: 2em;
+	border-radius: 12px;
+	padding: 5px; 
+	margin: 5px 0px 5px 450px; 
+	outline: none; 
+	border: none; 
+	background: #008080; 
+	border: #FFF 0.5px solid;
+	box-shadow: .5px 5px 12px 5px #008080;
+	cursor: pointer;
+}
+
+.Reset:hover {
+    color: #008080;
+    background: #CCFF00;
+    border: #FFF 2px solid;
+}
+
+div#myStatu {
+	font-size: 3.0em;
+	font-weight: bold;
+	color: #CCFF00;	
+	text-shadow: 3px 2px 8px #008080;		
+	margin: 1em 0.5em 0em 0em;
+}
+
+div#Statu {
+	font-size: 3.0em;
+	font-weight: bold;
+	color: #CCFF00;	
+	text-shadow: 3px 2px 8px #008080;			
+	margin: 1em 0.5em 0em 0em;		
+}
+
+#Score {
+	font-size: 3.5em;
+	font-weight: bold;
+	font-style: italic;
+	font-family: Arial Verdana;
+	color: #CCFF00;	
+	text-shadow: 3px 2px 8px #008080;
+}
+
+#Rule {
+	font-size: 3.0em;
+	font-weight: bold;
+	color: #CCFF00;
+	text-shadow: 3px 2px 8px #008080;				
+}
+
+#choi {
+	cursor: pointer;
+	width: 90px;
+	height: 90px;
+	padding: 5px;
+	border-radius: 50px;
+	background: silver;
+	border: none;
+	outline: none;
+}
+
+p#button {
+	
+	font-family: Arial;
+	font-size: 30px;
+	font-weight: bold;
+	
+}
+
+

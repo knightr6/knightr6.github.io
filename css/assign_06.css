@@ -1,0 +1,105 @@
+html { 
+  	background: url(../images/pumpkin-patch-01-1320550.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+body {
+	margin: 0 12.5%;
+	font-family: Arial, Impact, Helvetica, sans-serif;
+	font-size: 100%;
+	line-height: 1.25em;
+	font-weight: bold;
+	color: #002700;	
+}
+h1 {
+	/*font-family: Georgia;*/
+	font-size: 4em;
+	text-align: center;
+	line-height: 2em;
+	color: orange;
+	text-shadow: .1em .15em .06em #002700; 	
+}
+div {
+	width: 40%;              /*580px*/
+	height: auto; 
+	border-radius: 10px;
+	margin: 25px 0 50px 0;
+	padding: 10px;
+  	background-color: orange;
+}
+footer {
+	font-family: serif;
+	font-size: .85em;
+	font-weight: normal;
+	text-align: right;
+	color: white;
+	margin: 20px 0 40px;
+}	
+table#first {
+	width: 65%;      /*600px*/
+	height: auto;
+	border: 8px solid orange;
+	border-radius: 10px;
+  	background-color: orange;
+}
+table#second {
+	width: 35%;       /*300px*/
+	height: auto;
+	border: 8px solid orange;
+	border-radius: 10px;
+  	background-color: orange;
+}
+caption.first {	
+	font-size: 2.5em;
+	line-height: 1.25em;
+	color: orange;
+	text-shadow: .1em .15em .06em #002700;	
+}
+caption.second {
+	font-size: 1.5em;
+	margin: 0 0 .2em;
+	color: orange;
+	text-shadow: .1em .15em .06em #002700;
+}
+th {
+	font-size: 1.2em;
+	font-weight: bold;
+	text-transform: capitalize;
+	text-align: center;
+	background-color: yellow;
+	border: 3px solid orange;
+	border-radius: 7px; 
+	color: #002700;
+}
+td {
+	border: 3px solid orange;
+}
+a {
+	text-decoration: none;
+	text-align: center;
+	border: 1px solid;
+	border-radius: 7px; 
+	margin: 0 0 0 2.85em;
+}
+a:link {
+  	font-size: x-large;
+  	font-weight: bold;
+	color: orange;
+}
+a:visited {
+	color: orange;
+}
+a:focus {
+	background-color: #fff;
+	color: #c700f2;
+}
+a:hover {
+	background-color: orange;
+	color: blue;
+}
+a:active {
+	background-color: #fff;
+	color: #f0f;
+}
